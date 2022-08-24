@@ -205,7 +205,10 @@ justify-content: space-between;
 .top{
   text-align: center;
   margin-top: 100px;
-  color: rgb(255, 217, 4);
+  color: rgb(21, 4, 255);
+}
+.cle{
+  clear: right;
 }
 .price{
   text-align: center;
@@ -229,7 +232,7 @@ justify-content: space-between;
 text-align: center;
 }
 #social{
-  width: 100%;
+  width: 90%;
   padding-left: 50px;
   display: flex;
   justify-content:space-between;
@@ -318,7 +321,116 @@ width: 40%;
   border-radius:25px;
   position: fixed;
   left: 100px;
-  top: 150px;
+  top: 120px;
   z-index: 2;
   display: none;
+}
+.SliderDiv{
+  width: 300px;
+  height: 500px;
+  border: 2px solid grey;
+  border-radius: 50px;
+  margin: 20px;
+  background-size: 400px 500px;
+  float: right;
+  text-align:center ;
+  color: rgb(255, 208, 0);
+
+}
+.slideH{
+margin-top: 100%;
+}
+.slidep{
+font-size: medium;
+}
+.slidelastP{
+font-size: small;
+}
+#slide1{
+  background-image: url(../img/slider/friends-apartment-today-160509-tease.jpg);
+  background-repeat: no-repeat;
+}
+#slide2{
+  background-image: url(../img/slider/14900620-happy-family-near-new-house.jpg);
+  background-repeat: no-repeat;
+}
+#slide3{
+  background-image: url(../img/slider/15029208603_d4767295f5_c.jpg);
+  background-repeat: no-repeat;
+}
+#slide4{
+  background-image: url(../img/slider/267173-1600x1030-family-house-rules-real-life.jpg);
+  background-repeat: no-repeat;
+}
+#slide5{
+  background-image: url(../img/slider/Family-Reunion-Slogans.jpg);
+  background-repeat: no-repeat;
+}
+#slide6{
+  background-image: url(../img/slider/istockphoto-1270066435-612x612.jpg);
+  background-repeat: no-repeat;
+}
+#slide7{
+  background-image: url(../img/slider/istockphoto-1326886891-170667a.jpg);
+  background-repeat: no-repeat;
+}
+#slider{
+  position: relative;
+  width: 100%;
+  background-color: black;
+  height: 100%;
+  overflow: hidden;
+}
+.slidbtn{
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  background-color: black;
+  color: white;
+  border: 2px solid yellow;
+  border-radius: 25px;
+  z-index: 1;
+}
+#slidbtnleft{
+ left: 100px;
+ top: 300px;
+}
+#slidbtnright{
+right: 100px;
+top: 300px;
+}
+.first{
+  position: absolute;
+  left: -80px;
+}
+.second{
+position: absolute;
+left: 300px;
+width: 350px;
+}
+.third{
+position: absolute;
+left: 700px;
+width: 350px;
+}
+.last{
+  position: absolute;
+  right: -150px;
+}
+.dnone{
+display: none;
+}
+.overlay{
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.603);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  visibility: hidden;
+}
+.SliderDiv:hover .overlay{
+  visibility:visible;
 }

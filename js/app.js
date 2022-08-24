@@ -113,6 +113,10 @@ function fav(element) {
       }
     }
   }
+  if (favourites.length==0) {
+    console.log(2);
+    clear.classList.remove("dplay")
+  }
 // =============================================CLEAR BUTTON =============================
 //  TOTALLY WORKING
 cartIconfn();
@@ -165,6 +169,7 @@ function draw(dataArr) {
     );
   });
 }
+
 // ====================================GET DATA=============================================
 xhr.onreadystatechange = function () {
   if (xhr.readyState == 4) {
@@ -214,10 +219,10 @@ xhr.onreadystatechange = function () {
           );
         }
 
-        console.log(1);
       });
     }
   }
+
 };
 xhr.open("GET", "../db/data.json");
 xhr.send("");

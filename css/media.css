@@ -1,0 +1,30 @@
+@media screen and (max-width: 600px) {
+    .Contact{
+        display: none;
+    }
+    #wrab {
+        display: block;
+        margin-right: 2rem;
+    }
+    #navContact{
+        justify-content: end;
+    }
+    #intro{
+        font-size: small !important;
+    }
+    #introMain h3 {
+        display: none;
+    }
+    #introImage{
+        width: 18rem;
+        height: 20rem;
+    }
+    .introside span {
+        display: none;
+    }
+    #mainH{
+        height: 15rem;
+        font-size: medium;
+    }
+
+  }

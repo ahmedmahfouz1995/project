@@ -556,3 +556,13 @@ top: 300px;
   width: 400px;
   height: 400px;
 }
+.code{
+  width: 80%;
+  margin: 10%;
+  height: 1000px;
+  text-align: center;
+}
+.code img {
+  width: 80%;
+  height: 100%;
+}

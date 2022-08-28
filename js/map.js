@@ -1,7 +1,7 @@
 var myMap = document.getElementById("map")
 myMap.style.width="1200px"
 myMap.style.height="400px"
-myMap.style.margin="100px 50px"
+myMap.style.margin="40px 50px"
 var center = [30.088183, 31.238918];
 // Create the map 
 var map = L.map('map').setView(center, 12);
@@ -40,3 +40,4 @@ L.tileLayer(
       iconUrl: 'https://i.pinimg.com/originals/0f/61/ba/0f61ba72e0e12ba59d30a50295964871.png' 
     }
   });
+  document.getElementById("lastHtag").innerText=`hello ${localStorage.getItem("name")} you Know what Age ${localStorage.getItem("age")} is the right age to start investing in real state `

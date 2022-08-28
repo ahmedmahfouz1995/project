@@ -12,7 +12,7 @@ body {
   position: sticky;
   left: 0;
   top: 0;
-  z-index: 1;
+  z-index: 100005;
 }
 
 #navContact {
@@ -330,7 +330,6 @@ width: 40%;
   height: 500px;
   border: 2px solid grey;
   border-radius: 50px;
-  margin: 20px;
   background-size: 400px 500px;
   float: right;
   text-align:center ;
@@ -349,30 +348,50 @@ font-size: small;
 #slide1{
   background-image: url(../img/slider/friends-apartment-today-160509-tease.jpg);
   background-repeat: no-repeat;
+  position: absolute;
+  left: -100px;
 }
 #slide2{
   background-image: url(../img/slider/14900620-happy-family-near-new-house.jpg);
   background-repeat: no-repeat;
+  position: absolute;
+  left: 300px;
+  width: 350px;
 }
 #slide3{
   background-image: url(../img/slider/15029208603_d4767295f5_c.jpg);
   background-repeat: no-repeat;
+  position: absolute;
+  left: 700px;
+  width: 350px;
 }
 #slide4{
   background-image: url(../img/slider/267173-1600x1030-family-house-rules-real-life.jpg);
   background-repeat: no-repeat;
+  position: absolute;
+  width: 350px;
+  left: 1100px;
 }
 #slide5{
   background-image: url(../img/slider/Family-Reunion-Slogans.jpg);
   background-repeat: no-repeat;
+  position: absolute;
+  width: 350px;
+  left: 1500px;
 }
 #slide6{
   background-image: url(../img/slider/istockphoto-1270066435-612x612.jpg);
   background-repeat: no-repeat;
+  position: absolute;
+  width: 350px;
+  left: 1900px;
 }
 #slide7{
   background-image: url(../img/slider/istockphoto-1326886891-170667a.jpg);
   background-repeat: no-repeat;
+  position: absolute;
+  width: 350px;
+  left: 2300px;
 }
 #slider{
   position: relative;
@@ -399,27 +418,8 @@ font-size: small;
 right: 100px;
 top: 300px;
 }
-.first{
-  position: absolute;
-  left: -80px;
-}
-.second{
-position: absolute;
-left: 300px;
-width: 350px;
-}
-.third{
-position: absolute;
-left: 700px;
-width: 350px;
-}
-.last{
-  position: absolute;
-  right: -150px;
-}
-.dnone{
-display: none;
-}
+
+
 .overlay{
   width: 100%;
   height: 100%;
@@ -433,4 +433,126 @@ display: none;
 }
 .SliderDiv:hover .overlay{
   visibility:visible;
+}
+#resume{
+  width: 50px;
+  height: 50px;
+  background-color: rgba(216, 233, 232, 0.356);
+  border: 2px solid rgb(0, 25, 105);
+  border-radius: 25px;
+  color: rgba(255, 0, 0, 0.719);
+  position: absolute;
+  top: 0px;
+  right: 50px;
+  display: none;
+  z-index: 10;
+}
+/* ==========================================contact=========================== */
+.myForm{
+  margin: auto;
+  width: 80%;
+  height: 200px;
+  display: flex;
+  justify-content: space-around;
+}
+ 
+.imgContainer{
+  width: 100%;
+  height: 400px;
+  position: relative;
+  text-align: center;
+  margin-bottom: 120px;
+}
+.imgContainer img {
+  width: 80%;
+  height: 100%;
+  border: 2px solid rgb(156, 156, 163);
+  box-shadow: 10px 5px 40px 10px rgb(107, 64, 110);
+}
+.imgContainer h1{
+  border-bottom: 2px solid rgb(156, 156, 163);
+  color: gold;
+  padding-top: 20px;
+}
+.contactContainer{
+  height: 600px;
+}
+.conIcon{
+  border: none;
+  border-bottom: 2px solid blue ;
+  padding: 5px;
+  padding-bottom: 18px;
+  color:  rgb(167, 6, 179);
+  font-size: large;  
+}
+.formDiv{
+  margin: 0;
+  padding: 0;
+  width: 450px;
+
+}
+.formInput{
+  width: 400px;
+  border: none;
+  border-bottom:2px solid blue ; 
+  padding-bottom: 4px;
+  padding-left: 10px;
+  height: 40px;
+  background-color: white !important;
+}
+#radio{
+  display: flex;
+  justify-content: start;
+}
+#radio .formDiv {
+  width: 150px;
+}
+#radio .formInput {
+  width: 15px;
+  margin: 10px;
+}
+.formbtn{
+  width: 100px;
+  height: 30px;
+  border-radius: 10px;
+  margin: 10px 5px;
+  background-color:rgb(167, 6, 179) ;
+  color: yellow;
+}
+#map{
+  width: 400px;
+  height: 200px;
+}
+.danger{
+  color: red;
+  background-color: white;
+  border: 2px solid red;
+  margin-top: 5px;
+}
+#errors{
+  width: 500px;
+  height: auto;
+  background-color:white;
+  margin-top: 20px;
+  border: 2px solid gainsboro;
+  display: none;
+}
+.myContainer{
+  display: flex;
+  width: 80%;
+  height: 400px;
+  margin-left: 100px;
+  margin-bottom: 100px;
+  text-align: center;
+  justify-content: space-evenly;
+
+}
+#sorty{
+  width: 400px;
+  height: 400px;
+ 
+}
+.aboutUS{
+  width: 400px;
+  height: 400px;
 }

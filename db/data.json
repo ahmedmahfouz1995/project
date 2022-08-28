@@ -1,6 +1,7 @@
 ﻿{
     "SampleSaveLocation (1)": [
         {
+            "ID": "1",
             "Doctor name": "حسن حسين جلال الدين",
             "Latitude": "30.105848",
             "Longitude": "31.286504",
@@ -13,6 +14,7 @@
             "Type": "clinic"
         },
         {
+            "ID": "2",
             "Doctor name": "عبد العزيز الراكيبى",
             "Latitude": "30.10576",
             "Longitude": "31.286331",
@@ -25,6 +27,7 @@
             "Type": "clinic"
         },
         {
+            "ID": "3",
             "Doctor name": "ابو ذكرى صبحى ",
             "Latitude": "30.102974",
             "Longitude": "31.289197",
@@ -37,6 +40,7 @@
             "Type": "clinic"
         },
         {
+            "ID": "4",
             "Doctor name": "وائل الألفى ",
             "Latitude": "30.10576",
             "Longitude": "31.286331",
@@ -49,6 +53,7 @@
             "Type": "clinic"
         },
         {
+            "ID": "5",
             "Doctor name": "مها يوسف صلاح",
             "Latitude": "30.102974",
             "Longitude": "31.289197",
@@ -61,6 +66,7 @@
             "Type": "clinic"
         },
         {
+            "ID": "6",
             "Doctor name": "وجدى العصرة ",
             "Latitude": "30.10225058",
             "Longitude": "31.28456162",
@@ -73,6 +79,7 @@
             "Type": "clinic"
         },
         {
+            "ID": "7",
             "Doctor name": "عبد العال محمد ",
             "Latitude": "30.103141",
             "Longitude": "31.288789",
@@ -85,6 +92,7 @@
             "Type": "clinic"
         },
         {
+            "ID": "8",
             "Doctor name": "ندى نهاد",
             "Latitude": "30.103417",
             "Longitude": "31.288497",
@@ -97,6 +105,7 @@
             "Type": "clinic"
         },
         {
+            "ID": "9",
             "Doctor name": "سامى عبدالله مرسى",
             "Latitude": "30.103318",
             "Longitude": "31.284266",
@@ -109,6 +118,7 @@
             "Type": "clinic"
         },
         {
+            "ID": "10",
             "Doctor name": "جمال سعد الديب",
             "Latitude": "30.10418382",
             "Longitude": "31.28253089",
@@ -121,6 +131,7 @@
             "Type": "clinic"
         },
         {
+            "ID": "11",
             "Doctor name": "محمد السيد شعبان",
             "Latitude": "30.102999",
             "Longitude": "31.281406",
@@ -133,6 +144,7 @@
             "Type": "clinic"
         },
         {
+            "ID": "12",
             "Doctor name": "اسلام اشرف",
             "Latitude": "30.102524",
             "Longitude": "31.283343",
@@ -145,6 +157,7 @@
             "Type": "clinic"
         },
         {
+            "ID": "13",
             "Doctor name": " عبد الموجود الاصفر",
             "Latitude": "30.101832",
             "Longitude": "31.281671",
@@ -157,6 +170,7 @@
             "Type": "clinic"
         },
         {
+            "ID": "14",
             "Doctor name": " مديحة طنطاوى",
             "Latitude": "30.09283416",
             "Longitude": "31.28039173",
@@ -169,6 +183,7 @@
             "Type": "clinic"
         },
         {
+            "ID": "15",
             "Doctor name": "شمس الدين عبدالحافظ",
             "Latitude": "30.09660051",
             "Longitude": "31.28825345",
@@ -181,6 +196,7 @@
             "Type": "clinic"
         },
         {
+            "ID": "16",
             "Doctor name": "تامر احمد نصر",
             "Latitude": "30.093418",
             "Longitude": "31.282963",
@@ -192,18 +208,19 @@
             "Type": "clinic"
         },
         {
+            "ID": "17",
             "Doctor name": "عادل مريد ",
             "Latitude": "30.092728",
             "Longitude": "31.280488",
             "Address": "٢ ش ابراهيم ابو ذكرى متفرع من ش ترعة الجندى الدور الارضى  - الوايلى الكبير",
             "Floor": "1",
             "Class": "B",
-            "Contact_number": "01001507308",
             "Specialty": "Surg",
             "Brick": "ترعة الجندى ",
             "Type": "clinic"
         },
         {
+            "ID": "18",
             "Doctor name": "حنان صالح ",
             "Latitude": "30.092728",
             "Longitude": "31.280488",
@@ -216,6 +233,7 @@
             "Type": "clinic"
         },
         {
+            "ID": "19",
             "Doctor name": " محمود حبيشى",
             "Latitude": "30.093012",
             "Longitude": "31.278251",
@@ -228,6 +246,7 @@
             "Type": "clinic"
         },
         {
+            "ID": "20",
             "Doctor name": "محمد الدسوقي غانم",
             "Latitude": "30.092743",
             "Longitude": "31.279228",
@@ -240,6 +259,7 @@
             "Type": "clinic"
         },
         {
+            "ID": "21",
             "Doctor name": "معز الامام",
             "Latitude": "30.093838",
             "Longitude": "31.276495",
@@ -252,6 +272,7 @@
             "Type": "clinic"
         },
         {
+            "ID": "22",
             "Doctor name": " على الصديق",
             "Latitude": "30.093838",
             "Longitude": "31.276495",
@@ -264,6 +285,7 @@
             "Type": "clinic"
         },
         {
+            "ID": "23",
             "Doctor name": "سعيد عرابى",
             "Latitude": "30.093838",
             "Longitude": "31.276495",
@@ -276,6 +298,7 @@
             "Type": "clinic"
         },
         {
+            "ID": "24",
             "Doctor name": "كريم عبدالمنعم",
             "Latitude": "30.09544",
             "Longitude": "31.277118",
@@ -288,6 +311,7 @@
             "Type": "clinic"
         },
         {
+            "ID": "25",
             "Doctor name": "علاء سمرة ",
             "Latitude": "30.09544",
             "Longitude": "31.277118",
@@ -300,6 +324,7 @@
             "Type": "clinic"
         },
         {
+            "ID": "26",
             "Doctor name": "ايمن محمد الشحات",
             "Latitude": "30.096396",
             "Longitude": "31.2773",
@@ -312,6 +337,7 @@
             "Type": "clinic"
         },
         {
+            "ID": "27",
             "Doctor name": " محمد السيد عامر",
             "Latitude": "30.09848991",
             "Longitude": "31.2840487",
@@ -324,6 +350,7 @@
             "Type": "clinic"
         },
         {
+            "ID": "28",
             "Doctor name": "طه قرنى",
             "Latitude": "30.105896",
             "Longitude": "31.309175",
@@ -336,6 +363,7 @@
             "Type": "clinic"
         },
         {
+            "ID": "29",
             "Doctor name": " سلوى صلاح",
             "Latitude": "30.10649373",
             "Longitude": "31.30984148",
@@ -348,6 +376,7 @@
             "Type": "clinic"
         },
         {
+            "ID": "30",
             "Doctor name": "فكرى عبدالمنعم",
             "Latitude": "30.109082",
             "Longitude": "31.309191",
@@ -360,6 +389,7 @@
             "Type": "clinic"
         },
         {
+            "ID": "31",
             "Doctor name": "نصر نصار",
             "Latitude": "30.108613",
             "Longitude": "31.308841",
@@ -372,6 +402,7 @@
             "Type": "clinic"
         },
         {
+            "ID": "32",
             "Doctor name": "مصطفى الهواري ",
             "Latitude": "30.108613",
             "Longitude": "31.308841",
@@ -384,6 +415,7 @@
             "Type": "clinic"
         },
         {
+            "ID": "33",
             "Doctor name": "ياسر جورج تادرس",
             "Latitude": "30.108321",
             "Longitude": "31.308387",
@@ -396,6 +428,7 @@
             "Type": "clinic"
         },
         {
+            "ID": "34",
             "Doctor name": "محمد عابدين",
             "Latitude": "30.107757",
             "Longitude": "31.308389",
@@ -408,6 +441,7 @@
             "Type": "clinic"
         },
         {
+            "ID": "35",
             "Doctor name": "عصام عزوز ",
             "Latitude": "30.107244",
             "Longitude": "31.307921",
@@ -420,6 +454,7 @@
             "Type": "clinic"
         },
         {
+            "ID": "36",
             "Doctor name": " محمد شومان",
             "Latitude": "30.106819",
             "Longitude": "31.307895",
@@ -432,6 +467,7 @@
             "Type": "clinic"
         },
         {
+            "ID": "37",
             "Doctor name": "دنيا حسين ابو جبل",
             "Latitude": "30.103587",
             "Longitude": "31.306173",
@@ -444,6 +480,7 @@
             "Type": "clinic"
         },
         {
+            "ID": "38",
             "Doctor name": "سعاد حسنى",
             "Latitude": "30.10429",
             "Longitude": "31.306337",
@@ -456,6 +493,7 @@
             "Type": "clinic"
         },
         {
+            "ID": "39",
             "Doctor name": " احمد السيد محمد عبدالرحمن",
             "Latitude": "30.103443",
             "Longitude": "31.281225",
@@ -468,18 +506,19 @@
             "Type": "clinic"
         },
         {
+            "ID": "40",
             "Doctor name": "حسين يوسف",
             "Latitude": "30.101474",
             "Longitude": "31.280728",
             "Address": "4 Roushdy Ghoneim, AZ Zaytoun Al Qebleyah, Zeitoun, Cairo Governorate 4510110, Egypt",
             "Floor": "2",
             "Class": "A",
-            "Contact_number": "01222924436",
             "Specialty": "Pediatric",
             "Brick": "ترعة القبة ",
             "Type": "clinic"
         },
         {
+            "ID": "41",
             "Doctor name": "رشاد محمد رؤووف",
             "Latitude": "30.10104379",
             "Longitude": "31.28063608",
@@ -492,6 +531,7 @@
             "Type": "clinic"
         },
         {
+            "ID": "42",
             "Doctor name": " محمود احمد رجب",
             "Latitude": "30.10127804",
             "Longitude": "31.2806241",
@@ -504,6 +544,7 @@
             "Type": "clinic"
         },
         {
+            "ID": "43",
             "Doctor name": "حسان محمد",
             "Latitude": "30.100656",
             "Longitude": "31.282221",
@@ -516,18 +557,19 @@
             "Type": "clinic"
         },
         {
+            "ID": "44",
             "Doctor name": "عبد الحافظ بشير الحفناوى",
             "Latitude": "30.09934723",
             "Longitude": "31.28690272",
             "Address": "   3شارع عبد الدايم عبد اللطيف، مساكن الأميرية الجنوبية، قسم حدائق القبة، محافظة القاهرة‬ 4382466",
             "Floor": "2",
             "Class": "B+",
-            "Contact_number": "01207000296",
             "Specialty": "Gp",
             "Brick": "ترعة القبة ",
             "Type": "clinic"
         },
         {
+            "ID": "45",
             "Doctor name": "احمد محمد علي",
             "Latitude": "30.100276",
             "Longitude": "31.283183",
@@ -540,6 +582,7 @@
             "Type": "clinic"
         },
         {
+            "ID": "46",
             "Doctor name": "وجيه اسعد حنا",
             "Latitude": "30.099741",
             "Longitude": "31.28567",
@@ -552,6 +595,7 @@
             "Type": "clinic"
         },
         {
+            "ID": "47",
             "Doctor name": "هشام ماهر",
             "Latitude": "30.099741",
             "Longitude": "31.28567",
@@ -564,6 +608,7 @@
             "Type": "clinic"
         },
         {
+            "ID": "48",
             "Doctor name": " منى عدلى",
             "Latitude": "30.099741",
             "Longitude": "31.28567",
@@ -576,66 +621,67 @@
             "Type": "clinic"
         },
         {
+            "ID": "49",
             "Doctor name": "علاء عبد الواحد",
             "Latitude": "30.099556",
             "Longitude": "31.286591",
             "Address": "88 El-Qobba Canal, AZ Zaytoun Al Qebleyah, Amreya, Cairo Governorate 4510320, Egypt",
             "Floor": "2",
             "Class": "A+",
-            "Contact_number": "01114530322 / 24550889",
             "Specialty": "Gyna",
             "Brick": "ترعة القبة ",
             "Type": "clinic"
         },
         {
+            "ID": "50",
             "Doctor name": "حسين العسال",
             "Latitude": "30.099125",
             "Longitude": "31.287878",
             "Address": " 58 Farouk Mohammed Ali Ln, Masaken Al Amireyah Al Ganoubeyah, Hada'iq El Qobbah, Cairo Governorate 4382481, Egypt",
             "Floor": "2",
             "Class": "A+",
-            "Contact_number": "22566582",
             "Specialty": "Pediatric",
             "Brick": "ترعة القبة ",
             "Type": "clinic"
         },
         {
+            "ID": "51",
             "Doctor name": "وحيد صلاح السيد",
             "Latitude": "30.09885",
             "Longitude": "31.289094",
             "Address": "3 El-Qobba Canal, Masaken Al Amireyah Al Ganoubeyah, Hada'iq El Qobbah, Cairo Governorate 4382483, Egypt",
             "Floor": "1",
             "Class": "B",
-            "Contact_number": "22711134",
             "Specialty": "Surg",
             "Brick": "ترعة القبة ",
             "Type": "clinic"
         },
         {
+            "ID": "52",
             "Doctor name": "أميرة السنوسى",
             "Latitude": "30.098166",
             "Longitude": "31.288916",
             "Address": " 122 El-Gendy Canal, Masaken Al Amireyah Al Ganoubeyah, Hada'iq El Qobbah, Cairo Governorate 4382483, Egypt",
             "Floor": "2",
             "Class": "B+",
-            "Contact_number": "01224516600 / 26036272",
             "Specialty": "Gyna",
             "Brick": "ترعة الجندى ",
             "Type": "clinic"
         },
         {
+            "ID": "53",
             "Doctor name": "اشرف ياقوت",
             "Latitude": "30.098166",
             "Longitude": "31.288916",
             "Address": "122 El-Gendy Canal, Masaken Al Amireyah Al Ganoubeyah, Hada'iq El Qobbah, Cairo Governorate 4382483, Egypt",
             "Floor": "2",
             "Class": "B",
-            "Contact_number": "01224516600 / 26036272",
             "Specialty": "ENT",
             "Brick": "ترعة الجندى ",
             "Type": "clinic"
         },
         {
+            "ID": "54",
             "Doctor name": "رامى متولى",
             "Latitude": "30.098793",
             "Longitude": "31.289625",
@@ -648,6 +694,7 @@
             "Type": "clinic"
         },
         {
+            "ID": "55",
             "Doctor name": "وليد عبدالله عطيه ",
             "Latitude": "30.098793",
             "Longitude": "31.289625",
@@ -660,6 +707,7 @@
             "Type": "clinic"
         },
         {
+            "ID": "56",
             "Doctor name": "هانى حسين",
             "Latitude": "30.098793",
             "Longitude": "31.289625",
@@ -672,6 +720,7 @@
             "Type": "clinic"
         },
         {
+            "ID": "57",
             "Doctor name": "امال نور الدين محمد",
             "Latitude": "30.098758",
             "Longitude": "31.289979",
@@ -684,18 +733,19 @@
             "Type": "clinic"
         },
         {
+            "ID": "58",
             "Doctor name": "عبد العزيز مرسال",
             "Latitude": "30.098758",
             "Longitude": "31.289979",
             "Address": "١ امتداد ولى العهد، Al Amireyah Ash Shamaleyah, El Weili, Cairo Governorate 4511003, Egypt",
             "Floor": "1",
             "Class": "B",
-            "Contact_number": "26021151",
             "Specialty": "Surg",
             "Brick": "ولى العهد",
             "Type": "clinic"
         },
         {
+            "ID": "59",
             "Doctor name": "احمد يوسف",
             "Latitude": "30.097198",
             "Longitude": "31.289693",
@@ -708,6 +758,7 @@
             "Type": "clinic"
         },
         {
+            "ID": "60",
             "Doctor name": " داليا شاهين",
             "Latitude": "30.09624",
             "Longitude": "31.289442",
@@ -720,6 +771,7 @@
             "Type": "clinic"
         },
         {
+            "ID": "61",
             "Doctor name": "حسام شومان",
             "Latitude": "30.09598",
             "Longitude": "31.289332",
@@ -732,6 +784,7 @@
             "Type": "clinic"
         },
         {
+            "ID": "62",
             "Doctor name": "حلمى نصر",
             "Latitude": "30.095708",
             "Longitude": "31.289297",
@@ -744,6 +797,7 @@
             "Type": "clinic"
         },
         {
+            "ID": "63",
             "Doctor name": " محمد عباس الغندور",
             "Latitude": "30.0957824",
             "Longitude": "31.28385646",
@@ -756,6 +810,7 @@
             "Type": "clinic"
         },
         {
+            "ID": "64",
             "Doctor name": "شيرين السباعى",
             "Latitude": "30.093535",
             "Longitude": "31.288458",
@@ -768,6 +823,7 @@
             "Type": "clinic"
         },
         {
+            "ID": "65",
             "Doctor name": "مروة سامى",
             "Latitude": "30.093535",
             "Longitude": "31.288458",
@@ -780,6 +836,7 @@
             "Type": "clinic"
         },
         {
+            "ID": "66",
             "Doctor name": "منار حسن",
             "Latitude": "30.093262",
             "Longitude": "31.288427",
@@ -792,6 +849,7 @@
             "Type": "clinic"
         },
         {
+            "ID": "67",
             "Doctor name": "رضا محمد صبره",
             "Latitude": "30.090876",
             "Longitude": "31.289659",
@@ -804,30 +862,31 @@
             "Type": "clinic"
         },
         {
+            "ID": "68",
             "Doctor name": " زينب حامد ندا",
             "Latitude": "30.091006",
             "Longitude": "31.28941",
             "Address": "١٠٤ ش الشيخ غراب،، Al Waili Al Kabir Sharq, Hada'iq El Qobbah, Cairo Governorate 4382540, Egypt",
             "Floor": "2",
             "Class": "A+",
-            "Contact_number": "22567044",
             "Specialty": "Pediatric",
             "Brick": "ولى العهد",
             "Type": "clinic"
         },
         {
+            "ID": "69",
             "Doctor name": " عبد الفتاح اللبودى",
             "Latitude": "30.091275",
             "Longitude": "31.28886",
             "Address": "96 El-Shaikh Mahmoud, Al Waili Al Kabir Sharq, Hada'iq El Qobbah, Cairo Governorate 4382540, Egypt",
             "Floor": "1",
             "Class": "B",
-            "Contact_number": "0222593497",
             "Specialty": "Gp",
             "Brick": "ولى العهد",
             "Type": "clinic"
         },
         {
+            "ID": "70",
             "Doctor name": "محمد ماهر",
             "Latitude": "30.093488",
             "Longitude": "31.284339",
@@ -840,18 +899,19 @@
             "Type": "clinic"
         },
         {
+            "ID": "71",
             "Doctor name": " منى ممدوح محمد",
             "Latitude": "30.04595",
             "Longitude": "31.280422",
             "Address": " 19 Al Kabari, Al Abageyah, Manshiyat Naser, Cairo Governorate 4421514, Egypt",
             "Floor": "2",
             "Class": "B+",
-            "Contact_number": "010 15744822",
             "Specialty": "Gp",
             "Brick": "منشية ناصر",
             "Type": "clinic"
         },
         {
+            "ID": "72",
             "Doctor name": "سيد حسن محمد جرير",
             "Latitude": "30.04493",
             "Longitude": "31.28007",
@@ -864,18 +924,19 @@
             "Type": "clinic"
         },
         {
+            "ID": "73",
             "Doctor name": " احمد حسين",
             "Latitude": "30.04506",
             "Longitude": "31.280765",
             "Address": " 9 Al Kabari, Al Abageyah, Manshiyat Naser, Cairo Governorate 4421514, Egypt",
             "Floor": "2",
             "Class": "B+",
-            "Contact_number": "012 24545213",
             "Specialty": "Gp",
             "Brick": "منشية ناصر",
             "Type": "clinic"
         },
         {
+            "ID": "74",
             "Doctor name": " عادل زغلول",
             "Latitude": "30.043948",
             "Longitude": "31.27898",
@@ -888,18 +949,19 @@
             "Type": "clinic"
         },
         {
+            "ID": "75",
             "Doctor name": " الدمرداش احمد ابو الوفا",
             "Latitude": "30.043071",
             "Longitude": "31.278246",
             "Address": "٢٧ الكباري، الأباجية، قسم الخليفة،،  VH+67F, Al Abageyah, Manshiyat Naser, Cairo Governorate 4421404, Egypt",
             "Floor": "2",
             "Class": "B+",
-            "Contact_number": "22525010",
             "Specialty": "Gp",
             "Brick": "منشية ناصر",
             "Type": "clinic"
         },
         {
+            "ID": "76",
             "Doctor name": "عمرو البحيرى",
             "Latitude": "30.043071",
             "Longitude": "31.278246",
@@ -912,6 +974,7 @@
             "Type": "clinic"
         },
         {
+            "ID": "77",
             "Doctor name": "سليمان محمد سليمان",
             "Latitude": "30.041145",
             "Longitude": "31.276684",
@@ -924,6 +987,7 @@
             "Type": "clinic"
         },
         {
+            "ID": "78",
             "Doctor name": " محمد قاسم",
             "Latitude": "30.039667",
             "Longitude": "31.275152",
@@ -936,6 +1000,7 @@
             "Type": "clinic"
         },
         {
+            "ID": "79",
             "Doctor name": " عاصم ناصف",
             "Latitude": "30.038464",
             "Longitude": "31.272982",
@@ -948,6 +1013,7 @@
             "Type": "clinic"
         },
         {
+            "ID": "80",
             "Doctor name": " عبد المجيد ابراهيم مصطفى",
             "Latitude": "30.033648",
             "Longitude": "31.274022",
@@ -960,6 +1026,7 @@
             "Type": "clinic"
         },
         {
+            "ID": "81",
             "Doctor name": "احمد راجح",
             "Latitude": "30.035994",
             "Longitude": "31.270341",
@@ -972,6 +1039,7 @@
             "Type": "clinic"
         },
         {
+            "ID": "82",
             "Doctor name": " ايه احمد عبدالنظير",
             "Latitude": "30.035994",
             "Longitude": "31.270341",
@@ -984,6 +1052,7 @@
             "Type": "clinic"
         },
         {
+            "ID": "83",
             "Doctor name": "راندا النادى",
             "Latitude": "30.036005",
             "Longitude": "31.270248",
@@ -996,18 +1065,19 @@
             "Type": "clinic"
         },
         {
+            "ID": "84",
             "Doctor name": "وسيم فاخورى",
             "Latitude": "30.033648",
             "Longitude": "31.274022",
             "Address": " شارع المقطم، الأباجية، قسم الخليفة، محافظة القاهرة‬،، 27MF+9M9, Al Abageyah, Manshiyat Naser, Cairo Governorate 4421052, Egypt",
             "Floor": "2",
             "Class": "B+",
-            "Contact_number": "02-23422517",
             "Specialty": "Gp",
             "Brick": "منشية ناصر",
             "Type": "clinic"
         },
         {
+            "ID": "85",
             "Doctor name": "عماد ابو بكر",
             "Latitude": "30.034443",
             "Longitude": "31.272094",
@@ -1020,6 +1090,7 @@
             "Type": "clinic"
         },
         {
+            "ID": "86",
             "Doctor name": "عصام جاب الله",
             "Latitude": "30.034069",
             "Longitude": "31.272943",
@@ -1032,6 +1103,7 @@
             "Type": "clinic"
         },
         {
+            "ID": "87",
             "Doctor name": "أحمد عبدالفتاح",
             "Latitude": "30.09518698",
             "Longitude": "31.28933143",
@@ -1044,6 +1116,7 @@
             "Type": "تبارك الحدئق"
         },
         {
+            "ID": "88",
             "Doctor name": "ميادة عبدالسلام",
             "Latitude": "30.09518698",
             "Longitude": "31.28933143",
@@ -1056,6 +1129,7 @@
             "Type": "تبارك الحدئق"
         },
         {
+            "ID": "89",
             "Doctor name": "هالة جودة",
             "Latitude": "30.09518698",
             "Longitude": "31.28933143",
@@ -1068,6 +1142,7 @@
             "Type": "تبارك الحدئق"
         },
         {
+            "ID": "90",
             "Doctor name": "عمرو المكاوى",
             "Latitude": "30.09518698",
             "Longitude": "31.28933143",
@@ -1080,6 +1155,7 @@
             "Type": "تبارك الحدئق"
         },
         {
+            "ID": "91",
             "Doctor name": "هانى حسن",
             "Latitude": "30.09518698",
             "Longitude": "31.28933143",
@@ -1092,6 +1168,7 @@
             "Type": "تبارك الحدئق"
         },
         {
+            "ID": "92",
             "Doctor name": "سعد",
             "Latitude": "30.03969443",
             "Longitude": "31.27366928",
@@ -1104,6 +1181,7 @@
             "Type": "الدعوة"
         },
         {
+            "ID": "93",
             "Doctor name": "فاطمة ",
             "Latitude": "30.03969443",
             "Longitude": "31.27366928",
@@ -1116,6 +1194,7 @@
             "Type": "الدعوة"
         },
         {
+            "ID": "94",
             "Doctor name": "عبدالرازق موسى",
             "Latitude": "30.03969443",
             "Longitude": "31.27366928",
@@ -1128,6 +1207,7 @@
             "Type": "الدعوة"
         },
         {
+            "ID": "95",
             "Doctor name": "مصطفى سرحان",
             "Latitude": "30.03969443",
             "Longitude": "31.27366928",
@@ -1140,6 +1220,7 @@
             "Type": "الدعوة"
         },
         {
+            "ID": "96",
             "Doctor name": "محمود عبدالله",
             "Latitude": "30.03969443",
             "Longitude": "31.27366928",
@@ -1152,6 +1233,7 @@
             "Type": "الدعوة"
         },
         {
+            "ID": "97",
             "Doctor name": "اسلام الزعيم ",
             "Latitude": "30.103367",
             "Longitude": "31.306016",
@@ -1164,6 +1246,7 @@
             "Type": " بولى كلينيك"
         },
         {
+            "ID": "98",
             "Doctor name": "محمد عبد الجليل",
             "Latitude": "30.103367",
             "Longitude": "31.306016",
@@ -1176,6 +1259,7 @@
             "Type": " بولى كلينيك"
         },
         {
+            "ID": "99",
             "Doctor name": "صالح عبد التواب",
             "Latitude": "30.103367",
             "Longitude": "31.306016",
@@ -1188,6 +1272,7 @@
             "Type": " بولى كلينيك"
         },
         {
+            "ID": "100",
             "Doctor name": "محمد حجاج",
             "Latitude": "30.103367",
             "Longitude": "31.306016",
@@ -1200,6 +1285,7 @@
             "Type": " بولى كلينيك"
         },
         {
+            "ID": "101",
             "Doctor name": "عمرو صلاح",
             "Latitude": "30.108847",
             "Longitude": "31.309012",
@@ -1212,6 +1298,7 @@
             "Type": "رابعة العدوية"
         },
         {
+            "ID": "102",
             "Doctor name": "مصطفى موسى",
             "Latitude": "30.108847",
             "Longitude": "31.309012",
@@ -1224,6 +1311,7 @@
             "Type": "رابعة العدوية"
         },
         {
+            "ID": "103",
             "Doctor name": "نادر محمد ",
             "Latitude": "30.108847",
             "Longitude": "31.309012",
@@ -1236,6 +1324,7 @@
             "Type": "رابعة العدوية"
         },
         {
+            "ID": "104",
             "Doctor name": "محمد سليمان ",
             "Latitude": "30.108847",
             "Longitude": "31.309012",
@@ -1248,6 +1337,7 @@
             "Type": "رابعة العدوية"
         },
         {
+            "ID": "105",
             "Doctor name": "مى عبدالعاطى",
             "Latitude": "30.108847",
             "Longitude": "31.309012",
@@ -1260,6 +1350,7 @@
             "Type": "رابعة العدوية"
         },
         {
+            "ID": "106",
             "Doctor name": "ضياء عبدالعزيز",
             "Latitude": "30.108847",
             "Longitude": "31.309012",
@@ -1272,6 +1363,7 @@
             "Type": "رابعة العدوية"
         },
         {
+            "ID": "107",
             "Doctor name": "زينب زكريا",
             "Latitude": "30.093602",
             "Longitude": "31.277459",
@@ -1284,6 +1376,7 @@
             "Type": "عمرو بن الخطاب"
         },
         {
+            "ID": "108",
             "Doctor name": "امل حسين ",
             "Latitude": "30.093602",
             "Longitude": "31.277459",
@@ -1296,6 +1389,7 @@
             "Type": "عمرو بن الخطاب"
         },
         {
+            "ID": "109",
             "Doctor name": "اميرة عبدالسلام",
             "Latitude": "30.093602",
             "Longitude": "31.277459",
@@ -1308,6 +1402,7 @@
             "Type": "عمرو بن الخطاب"
         },
         {
+            "ID": "110",
             "Doctor name": "داليا سويدان",
             "Latitude": "30.093602",
             "Longitude": "31.277459",
@@ -1320,6 +1415,7 @@
             "Type": "عمرو بن الخطاب"
         },
         {
+            "ID": "111",
             "Doctor name": "عادل محمد",
             "Latitude": "30.093602",
             "Longitude": "31.277459",
@@ -1332,6 +1428,7 @@
             "Type": "عمرو بن الخطاب"
         },
         {
+            "ID": "112",
             "Doctor name": "هدى عبدالفتاح",
             "Latitude": "30.093602",
             "Longitude": "31.277459",
@@ -1344,6 +1441,7 @@
             "Type": "عمرو بن الخطاب"
         },
         {
+            "ID": "113",
             "Doctor name": "رأفت شاهين",
             "Latitude": "30.093602",
             "Longitude": "31.277459",
@@ -1356,18 +1454,19 @@
             "Type": "عمرو بن الخطاب"
         },
         {
+            "ID": "114",
             "Doctor name": "ايناس محمد",
             "Latitude": "30.095566",
             "Longitude": "31.278892",
             "Address": "1 El-Khalig El-Masry, Al Waili Al Kabir Sharq, Hada'iq El Qobbah, Cairo Governorate 4382133, Egypt",
             "Floor": "2",
             "Class": "B",
-            "Contact_number": "0224518762",
             "Specialty": "Pediatric",
             "Brick": "الوايلى ",
             "Type": "تنمية المجتمع"
         },
         {
+            "ID": "115",
             "Doctor name": "منال ابو العينين",
             "Latitude": "30.09514392",
             "Longitude": "31.28419972",
@@ -1380,30 +1479,31 @@
             "Type": "تنمية المجتمع"
         },
         {
+            "ID": "116",
             "Doctor name": "أحمد رمضان",
             "Latitude": "30.095566",
             "Longitude": "31.278892",
             "Address": "1 El-Khalig El-Masry, Al Waili Al Kabir Sharq, Hada'iq El Qobbah, Cairo Governorate 4382133, Egypt",
             "Floor": "2",
             "Class": "B",
-            "Contact_number": "0224518762",
             "Specialty": "Pediatric",
             "Brick": "الوايلى ",
             "Type": "تنمية المجتمع"
         },
         {
+            "ID": "117",
             "Doctor name": "أسماء فتحى ",
             "Latitude": "30.095566",
             "Longitude": "31.278892",
             "Address": "1 El-Khalig El-Masry, Al Waili Al Kabir Sharq, Hada'iq El Qobbah, Cairo Governorate 4382133, Egypt",
             "Floor": "2",
             "Class": "B",
-            "Contact_number": "0224518762",
             "Specialty": "Gp",
             "Brick": "الوايلى ",
             "Type": "تنمية المجتمع"
         },
         {
+            "ID": "118",
             "Doctor name": "صبحى الجندى",
             "Latitude": "30.10290308",
             "Longitude": "31.28364609",
@@ -1416,6 +1516,7 @@
             "Type": "الهوارى الطبية"
         },
         {
+            "ID": "119",
             "Doctor name": "محمد السيد",
             "Latitude": "30.10290308",
             "Longitude": "31.28364609",
@@ -1428,6 +1529,7 @@
             "Type": "الهوارى الطبية"
         },
         {
+            "ID": "120",
             "Doctor name": "أسامة دنيا",
             "Latitude": "30.10290308",
             "Longitude": "31.28364609",
@@ -1440,6 +1542,7 @@
             "Type": "الهوارى الطبية"
         },
         {
+            "ID": "121",
             "Doctor name": "منال بيومى ",
             "Latitude": "30.10290308",
             "Longitude": "31.28364609",
@@ -1452,6 +1555,7 @@
             "Type": "الهوارى الطبية"
         },
         {
+            "ID": "122",
             "Doctor name": "هالة اسماعيل ",
             "Latitude": "30.10290308",
             "Longitude": "31.28364609",
@@ -1464,6 +1568,7 @@
             "Type": "الهوارى الطبية"
         },
         {
+            "ID": "123",
             "Doctor name": "رفعت شعلان",
             "Latitude": "30.102902",
             "Longitude": "31.281956",
@@ -1476,6 +1581,7 @@
             "Type": "التقوى"
         },
         {
+            "ID": "124",
             "Doctor name": "صلاح عفيفى",
             "Latitude": "30.09430567",
             "Longitude": "31.28277302",
@@ -1488,18 +1594,19 @@
             "Type": "clinic"
         },
         {
+            "ID": "125",
             "Doctor name": "شريف صبرى ",
             "Latitude": "30.10412414",
             "Longitude": "31.28330317",
             "Address": "٢٥ عثمان إبن عفان، الزيتون القبلية، قسم الاميريه، محافظة القاهرة‬ 4510231",
             "Floor": "2",
             "Class": "B",
-            "Contact_number": "01006028489",
             "Specialty": "Gp",
-            "Brick": "التحرير",
+            "Brick": "الوايلى ",
             "Type": "clinic"
         },
         {
+            "ID": "126",
             "Doctor name": "حسن عواد ",
             "Latitude": "30.09991413",
             "Longitude": "31.28505109",
@@ -1512,6 +1619,7 @@
             "Type": "clinic"
         },
         {
+            "ID": "127",
             "Doctor name": "عادل جورج عطية",
             "Latitude": "30.107121",
             "Longitude": "31.309547",
@@ -1524,10 +1632,10 @@
             "Type": "clinic"
         },
         {
+            "ID": "128",
             "Doctor name": "شاهيناز العطار",
             "Address": "ش عبدالمقصود زيدان الاميرية",
             "Class": "A+",
-            "Contact_number": "01282028898",
             "Specialty": "Gyna",
             "Brick": "ترعة القبة ",
             "Type": "clinic"

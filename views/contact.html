@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact</title>
+    <!--  -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.8.0/dist/leaflet.css"
+    integrity="sha512-hoalWLoI8r4UszCkZ5kL8vayOGVae1oxXe/2A4AO6J9+580uKHDO3JdHb7NzwwzK5xr/Fs0W40kiNHxM9vyTtQ=="
+    crossorigin=""/>
+     <link rel="stylesheet" href="http://localhost/project/template/assets/css/style.css">
+     <!-- leaflet  -->
+     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.8.0/dist/leaflet.css"
+    integrity="sha512-hoalWLoI8r4UszCkZ5kL8vayOGVae1oxXe/2A4AO6J9+580uKHDO3JdHb7NzwwzK5xr/Fs0W40kiNHxM9vyTtQ=="
+    crossorigin=""/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.draw/0.2.3/leaflet.draw.css"/>
+    <script src="https://unpkg.com/leaflet@1.8.0/dist/leaflet.js"
+    integrity="sha512-BB3hKbKWOc9Ez/TAwyWxNXeoV9c1v6FIeYiBieIWkpLjauysF18NzgR1MBNBXf8/KABdlkX68nAhlwcDFLGPCQ=="
+    crossorigin=""></script>
+    <script script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.draw/0.2.3/leaflet.draw.js"></script >
+ 
+    
+    <!--  -->
+    <script src="https://kit.fontawesome.com/025cfe9034.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="icon" href="./img/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="../css/media.css">
+
+</head>
+<body>
+    <nav id="navbar">
+        <h1>
+            3qary 
+        </h1>
+        <div id="navContact">
+            <a href="#" class="contact">Home</a>
+            <a href="#" class="contact">About US</a>
+            <a href="#" class="contact">Created By</a>
+            <a href="#" id="wrab" class="contact"><i class="fa-solid fa-list"></i></a>
+        </div>
+        <div id="cart">
+            <div id="carticon">
+                <span id="notinum"></span><i class="fa-solid fa-bell"></i>
+            </div>
+            <img id="cartImg" src="../img/shopping-trolley-icon.png" alt="cart">
+        </div>
+    </nav>
+    <section class="imgContainer">
+        <div class="overlay">
+        </div>
+            <img src="../img/general/85120553.jpg" alt="image">
+            <h1>WE ARE ALL EARS</h1>
+    </section>
+    <section class="contactContainer">
+        <form action="../Index.html" target="_self" class="myForm" >
+            <main>
+                <div class="formDiv"><i class="far fa-user conIcon"></i><input type="text" class="formInput" placeholder="NAME" id="name"></div>
+                <div class="formDiv"> <i class="far fa-envelope conIcon"></i> <input type="email" class="formInput" placeholder="Email" id="email"></div>
+                <div  class="formDiv"><i class="fa-solid fa-key conIcon"></i> <input type="password" class="formInput" placeholder="password" id="password"></div> 
+                <div class="formDiv"><i class="fa-solid fa-person-cane conIcon"></i><input type="number" class="formInput" placeholder="Your age" id="age"></div>
+                <label id="typeOfusers">You are a  : </label>
+                <div id="radio">
+                    <div class="formDiv"><i class="fa-solid fa-building conIcon"></i> seller<input type="radio" class="formInput" name="typeOfuser" value="seller" id="sellr"></div>
+                    <div class="formDiv"><i class="fa-solid fa-sack-dollar conIcon"></i>  buyer<input type="radio" class="formInput" name="typeOfuser" value="buyer" id="buyer"></div>
+                </div> 
+                <div id="errors">
+                </div>
+            </main>
+            <aside>
+                <div class="formDiv"><i class="fa-solid fa-location-crosshairs conIcon"></i>
+                    <div id="map"></div>
+                </div>
+               <div class="formText">
+                <p>
+                    <i class="fas fa-pencil-alt conIcon"></i>
+                    If you have any comment please specifiy
+                </p>
+                <textarea name="text" id="txt"  class="formTextArea" rows="5" cols="50" >
+
+                </textarea>
+            </div>
+            <button class="formbtn" type="submit" id="submit">Submit</button>
+            <button class="formbtn" type="reset"  id="reset">Reset</button>
+            </aside>
+        </textarea>
+        
+           
+        </form>
+    </section>
+
+
+    <footer id="footbar">
+        <h3>
+        Contact info
+        </h3>
+    <div id="social">
+        <a href="https://www.facebook.com/"> 
+        <h3><i class="fa-brands fa-facebook  blue"></i></h3>
+        </a>
+        <a href="https://www.facebook.com/">
+            <h3><i class="fa-brands fa-facebook-messenger blue"></i></h3>
+        </a>
+        <a href="https://web.whatsapp.com/">
+            <h3><i class="afa-brands fa-whatsapp green"></i></h3>
+        </a>
+        <a href="https://www.instagram.com/">
+        <h3><i class="fa-brands fa-instagram"></i></h3>
+        </a>
+        <a href="https://twitter.com/i/flow/login">
+            <h3><i class="fa-brands fa-twitter"></i></h3>            
+        </a>
+        <a href="https://www.iti.gov.eg/iti/home">
+            <h3><i class="fa-solid fa-heart red"></i></h3>                       
+        </a>
+        <a href="https://www.google.com/maps">
+            <h4 class=""><i class="fas fa-map-marker-alt blue"></i> &nbsp; 46 Salah salem, El-zawia, Cairo</h4>
+        </a>
+        <a href="https://mail.google.com">
+            <h4 class=""><i class="fas fa-phone-volume  red"></i>&nbsp; +2 (0100) 938–5210</h4>
+        </a>
+        <a href="https://mail.google.com/mail/u/0/?tab=rm#inbox">
+            <h4 class=""><i class="far fa-envelope green"></i>&nbsp; geo.mahfoz@gmail.com</h4>
+        </a>
+            
+    </div>
+    <div class="copy">
+        <h4 class="dev">&copy;2022 Developed By Ahmed Mahfouz</h4>
+    </div>
+    <a href="#bod">  <button class="up"><i class="fas fa-chevron-up"></i></button></a>
+</footer>
+    <script src="../js/validat.js"></script>
+</body>
+</html>

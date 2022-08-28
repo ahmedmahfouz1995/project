@@ -7,6 +7,7 @@ const spinIcon = document.getElementsByName("spin");
 let count = 1;
 var favourites = [];
 // ===============================navbar============================================//
+// ===============================hover===========================================//
 function blackHover() {
   navBar.style.backgroundColor = "black";
   navBar.style.color = "white";
@@ -31,6 +32,10 @@ function whiteHover() {
 }
 navBar.addEventListener("mouseover", blackHover);
 navBar.addEventListener("mouseout", whiteHover);
+
+
+
+// ==============================================change text of the main intro h1=======================
 flcArr = [
   "Owning a home is a keystone of wealth… both financial affluence and emotional security",
   "The house you looked at today and wanted to think about until tomorrow may be the same house someone looked at yesterday and will buy today",
@@ -60,6 +65,55 @@ function swip() {
 }
 setInterval(swip, 5000);
 // ========================================= Slider =========================================================//
+let sliderDiv = document.getElementsByClassName("sliderDiv")
+let slideArray= []
+for (let i = 0; i < sliderDiv.length; i++) {
+  slideArray.push(sliderDiv.item(i));
+} 
+function slide() {
+  var myinterval = setInterval(() => {
+    slideArray.forEach((element)=>{
+      let eleLeft= element.offsetLeft
+      element.style.left =eleLeft-400+"px" 
+      if (parseInt(element.style.left)<-100) {   
+          element.style.left =2300+"px"  
+      } 
+    })
+  }, 3000);
+  let slidbtnleft =document.getElementById('slidbtnleft')
+let slidbtnright =document.getElementById('slidbtnright')
+slidbtnleft.addEventListener("click",()=>{
+  resume.style.display="block"
+  clearInterval(myinterval)
+  slideArray.forEach((element)=>{
+    let eleLeft= element.offsetLeft
+    element.style.left =eleLeft-400+"px" 
+    if (parseInt(element.style.left)<-100) {
+      element.style.left =2300+"px"
+  } 
+  })
+});
+slidbtnright.addEventListener("click",()=>{
+  resume.style.display="block"
+  clearInterval(myinterval)
+  slideArray.forEach((element)=>{
+    let eleRight= element.offsetLeft
+    element.style.left =eleRight+400+"px" 
+    if (parseInt(element.style.left)>2310) {
+      element.style.left =-100+"px"    
+  } 
+})
+});
+return myinterval
+}
+slide()
+let resume=document.getElementById("resume")
+resume.addEventListener("click",(e)=>{
+e.preventDefault()
+slide()
+resume.style.display="none"
+})
+
 
 
 
@@ -94,10 +148,10 @@ function cartIconfn() {
     cartImg.src = "../img/shopping-trolley-icon.png";
   }
 }
+// ===============DRAW FAVOURITE PRODUCTS THE FUNCTION CALLING IS IN HTML BUTTON ===========
 const proudct = document.getElementById("proudct");
 const xhr = new XMLHttpRequest();
 const fd = document.getElementById("fl");
-// ===============DRAW FAVOURITE PRODUCTS THE FUNCTION CALLING IS IN HTML BUTTON ===========
 function fav(element) {
     const clear = document.getElementById("clear");
     clear.classList.add("dplay");
@@ -105,7 +159,8 @@ function fav(element) {
   btn.classList.toggle("red");
 
   if (btn.classList.contains("red")) {
-    favourites.push(btn.id);
+    favourites.push(parseInt(btn.id));
+    console.log(favourites);
   } else {
     for (let i = 0; i < favourites.length; i++) {
       if (favourites[i] == btn.id) {
@@ -114,10 +169,9 @@ function fav(element) {
     }
   }
   if (favourites.length==0) {
-    console.log(2);
     clear.classList.remove("dplay")
   }
-// =============================================CLEAR BUTTON =============================
+// =============================================CLEAR favourite BUTTON =============================
 //  TOTALLY WORKING
 cartIconfn();
 clear.addEventListener("click",()=>{
@@ -145,20 +199,18 @@ function draw(dataArr) {
     proudct.insertAdjacentHTML(
       "beforeend",
       ` <div class="card">
-            <button id="${dataArr.indexOf(
-              element
-            )}" class="add" ><h3><i class="fa-solid fa-heart"></i></h3></button>
+            <button id="${element.ID-1}" class="add" ><h3><i class="fa-solid fa-heart"></i></h3></button>
             <img src="../img/apart/${Math.ceil(
               Math.random() * 10
-            )}.jpg" class="card-image" alt="image" onclick="fav(this)" >
+            )}.jpg" class="card-image" alt="image"  onclick="fav(this)" >
             <h1 class="owner"> ${element["Doctor name"]}</h1>
             <p class="cardDesc">
             ${element.Address}
             </p>
             <div class="card-foot">
-            <a href="" class="location" value= "${element.Latitude} / ${
+            <a href="../views/map.html" class="location" value= "${element.Latitude} / ${
         element.Longitude
-      }" ><i class="fa-solid fa-location-crosshairs"></i></a> 
+      }" onclick="locationGeter(this)" ><i class="fa-solid fa-location-crosshairs"></i></a> 
                 <p class="pnum">${element.Contact_number}</p>
                 </div>
                 <h4 class="price"> price : ${
@@ -200,7 +252,6 @@ xhr.onreadystatechange = function () {
           const element = favourites[i];
           SideBarData.push(dataArr[element]);
         }
-        console.log(SideBarData.length);
         for (let i = 0; i < SideBarData.length; i++) {
           SideBar.insertAdjacentHTML(
             "beforeend",
@@ -226,3 +277,15 @@ xhr.onreadystatechange = function () {
 };
 xhr.open("GET", "../db/data.json");
 xhr.send("");
+
+
+// ==================== location ======================//
+function locationGeter(ele){
+ 
+  let locArray=ele.getAttribute("value").split("/");
+  let Latitude = locArray[0]
+  let Longitude = locArray[1]
+  console.log(Longitude,Latitude);
+  localStorage.setItem("newlat",Latitude)
+  localStorage.setItem("newlng",Longitude)
+}
